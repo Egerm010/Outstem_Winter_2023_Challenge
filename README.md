@@ -1,6 +1,6 @@
 # PokeApiProject
 
-Goals: I seemingly completed goal 1, however I attempted but was not able to get past goal 2.
+Goals: I seemingly completed goal 1, however I attempted but was not able to get past goal 2 as one will be able to see through my commented out lines.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
 
