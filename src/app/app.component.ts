@@ -20,7 +20,7 @@ export class AppComponent {
    // if(this.cacheMe.match("https://pokeapi.co/api/v2/pokemon/"+ (<HTMLInputElement>document.getElementById("pokemonsearch")).value + "/") == null){
    //  this.cacheMe.add("https://pokeapi.co/api/v2/pokemon/"+ (<HTMLInputElement>document.getElementById("pokemonsearch")).value + "/");
     //}
-    var poke = (<HTMLInputElement>document.getElementById("pokemonsearch")).value;
+    var poke = (<HTMLInputElement>document.getElementById("pokemonsearch")).value.toString().toLowerCase();
     this.pokeService.getPokemon(poke)
       .subscribe(data => {this.pokemon = data});
 
